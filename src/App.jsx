@@ -26,7 +26,15 @@ const App = () => {
   return (
     <div className="app">
       <div className="left-column">
-        <h2>Skills</h2>
+        <div className='info'>
+         <h2>Mobile No.</h2>
+         <p>0313-4492891</p>
+         <h2>Email:</h2>
+         <p>itsumerch6432@gmail.com</p>
+         <h2>Github:</h2>
+         <p><a target="_blank" href="https://github.com/umerchaudhary"> https://github.com/umerchaudhary</a></p>
+        </div>
+        <h2>Skills:</h2>
         <ul className="skills-list">
           {profile.skills.map((skill, index) => (
             <li key={index}>
@@ -43,11 +51,9 @@ const App = () => {
           <h1>{profile.name}</h1>
           <p>{profile.title}</p>
         </header>
-
         <section className="profile">
           <p>{profile.description}</p>
         </section>
-
         <section className="education">
           <h2>Education</h2>
           <ul>
@@ -57,6 +63,9 @@ const App = () => {
               </li>
             ))}
           </ul>
+        </section>
+        <section>
+          <h2>Projects</h2>
         </section>
       </div>
     </div>

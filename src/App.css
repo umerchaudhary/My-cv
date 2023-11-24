@@ -5,14 +5,17 @@
 .left-column {
   background-color: #333;
   color: #fff;
-  padding: 20px;
-  width: 30%;
+  padding: 40px;
+  width: 40%;
 }
 
-.left-column img {
-  width: 100%;
-  border-radius: 50%;
-  margin-bottom: 20px;
+.left-column h2 {
+  color: white
+}
+
+.info {
+  padding-bottom: 50px;
+  color: aqua;
 }
 
 .right-column {
@@ -55,4 +58,19 @@ header {
 
 h2 {
   color: #333;
+  line-height: 0.5px
+}
+
+body {
+  margin: 0;
+
+}
+
+h1 {
+  font-size: 3.2em;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
 }
