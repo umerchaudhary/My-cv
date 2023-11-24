@@ -44,8 +44,11 @@
   transition: width 0.5s ease-in-out;
 }
 
+
 header {
   text-align: center;
+  line-height: 1;
+  padding-bottom: 30px;
 }
 
 .profile {
@@ -73,4 +76,8 @@ h1 {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+section {
+  padding-bottom: 20px;
 }
