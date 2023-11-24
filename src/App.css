@@ -10,12 +10,11 @@
 }
 
 .left-column h2 {
-  color: white
+  color: rgb(48, 218, 190)
 }
 
 .info {
   padding-bottom: 50px;
-  color: aqua;
 }
 
 .right-column {
@@ -39,7 +38,7 @@
 
 .progress-bar {
   height: 10px;
-  background-color: #fff;
+  background-color: #3bda48;
   width: 0;
   transition: width 0.5s ease-in-out;
 }
@@ -75,7 +74,6 @@ h1 {
 
 a {
   color: #fff;
-  text-decoration: none;
 }
 
 section {

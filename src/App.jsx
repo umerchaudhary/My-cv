@@ -41,9 +41,11 @@ const App = () => {
          <h2>Mobile No.</h2>
          <p>0313-4492891</p>
          <h2>Email:</h2>
-         <p>itsumerch6432@gmail.com</p>
+         <p><a target="_blank" href="mailto:itsumerch6432@gmail.com"> itsumerch6432@gmail.com </a></p>
          <h2>Github:</h2>
          <p><a target="_blank" href="https://github.com/umerchaudhary"> https://github.com/umerchaudhary </a></p>
+         <h2>LinkedIn:</h2>
+         <p><a target="_blank" href="https://www.linkedin.com/in/muhammad-umer-3858ba17b/"> https://www.linkedin.com/in/muhammad-umer-3858ba17b/</a></p>
         </div>
         <h2>Skills:</h2>
         <ul className="skills-list">
