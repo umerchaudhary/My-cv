@@ -10,7 +10,7 @@
 }
 
 .left-column h2 {
-  color: rgb(48, 218, 190)
+  color: rgb(0, 197, 241)
 }
 
 .info {
@@ -38,7 +38,7 @@
 
 .progress-bar {
   height: 10px;
-  background-color: #3bda48;
+  background-color: #73e77d;
   width: 0;
   transition: width 0.5s ease-in-out;
 }
