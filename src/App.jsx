@@ -1,4 +1,5 @@
 import React from 'react';
+import profileImage from './assets/image.jpg'; // Import the image
 import './App.css';
 
 const App = () => {
@@ -37,6 +38,7 @@ const App = () => {
   return (
     <div className="app">
       <div className="left-column">
+      <img src={profileImage} alt="Umer" />
         <div className='info'>
          <h2>Mobile No.</h2>
          <p>0313-4492891</p>
@@ -60,7 +62,6 @@ const App = () => {
 
       <div className="right-column">
         <header>
-          <img src="./image.jpeg" alt="Umer" />
           <h1>{profile.name}</h1>
           <h3><strong>{profile.title}</strong></h3>
         </header>
